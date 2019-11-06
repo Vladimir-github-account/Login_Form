@@ -1,0 +1,94 @@
+body {
+    background-color: #D47776;
+    font-family: monospace;
+}
+
+#registration{
+    position: fixed;
+    left: calc(50% - 150px);
+    top: calc(50% - 167px);
+}
+
+#registration > p,#registration > p a{
+    color: white;
+}
+
+
+
+form {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:#ECECEC;
+    padding: 0 15px 15px 15px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+}
+
+form input {
+    margin: 10px 0;
+}
+
+.iconContainer {
+    background-color: #70C6BB;
+    border-radius: 50%;
+    margin-top: -30px;
+    height: 70px;
+    width: 70px;
+    align-self: center;
+    display: flex;
+}
+
+.iconContainer > img {
+    margin:0 auto;
+    width: 50px;
+    overflow: hidden;
+    align-self: center;
+}
+
+h2{
+    align-self: center;
+    color: rgb(90,90,90);
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+#textInput, #password {
+    height: 20px;
+    padding: 8px;
+    border: 0;
+}
+
+.underSignInButtonFields {
+    font-size: 12px;
+}
+
+.underSignInButtonFields > a {
+    margin-left: 45px;
+    color: rgb(70,70,70);
+}
+
+
+
+#signInButton {
+    background-color:#70C6BB ;
+    color: white;
+    font-weight: bold;
+    padding: 8px 3px;
+    border: 0;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+    color:rgb(70,70,70);
+}
+
+
+p.underFormParagraph{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
